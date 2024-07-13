@@ -1,5 +1,5 @@
 # Movie-Aja - Watch Together
-
+*OPEN ON DESKTOPS ONLY*
 A web application that leverages pure WebRTC protocol, Google Firestore as a signaling server, and Chromium Tab Sharing protocol to allow screen sharing with audio, enabling friends to watch movies and videos together despite the distance.
 
 <a href="https://movie-aja.web.app" target="_blank">Application</a>
