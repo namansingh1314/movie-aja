@@ -1,0 +1,70 @@
+#joinContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#joinContainer > div {
+    display: flex;
+    height: 100vh; 
+}
+
+#logoContainer img {
+    object-fit: cover;
+    width: 75vw;
+}
+
+#inputContainer {
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#inputContainer > * {
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+#inputContainer label {
+    color: #5A9BD4; /* Light blue color */
+}
+
+#brand {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #5A9BD4; /* Light blue color */
+}
+
+#createCallBtn, #joinCallBtn {
+    background-color: #88C0D0; /* Complementary color */
+    font-weight: bold;
+    color: white; /* White text for contrast */
+}
+
+button:disabled {
+    background-color: #B0D6E5 !important; /* Lightened version of the button color */
+}
+
+.MuiInput-underline:after {
+    border-bottom: 2px solid #88C0D0 !important; /* Complementary color */
+}
+
+input, .MuiCheckbox-root {
+    color: white !important; /* White text for better readability */
+    background-color: #5A9BD4; /* Light blue background for inputs */
+    border-radius: 4px; /* Rounded corners for inputs */
+    padding: 5px; /* Padding for inputs */
+}
+
+/* Additional styling for hover effects on buttons */
+#createCallBtn:hover, #joinCallBtn:hover {
+    background-color: #5A9BD4; /* Darker shade for hover effect */
+}
+
+/* Add transition for smooth hover effects */
+#createCallBtn, #joinCallBtn {
+    transition: background-color 0.3s ease;
+}

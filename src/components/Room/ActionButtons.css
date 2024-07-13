@@ -1,0 +1,37 @@
+#shareContainer #actionContainer {
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  height: 75px;
+  display: none;
+  background-color: #5A9BD4; /* Light blue background */
+  color: white; /* White text for contrast */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+}
+
+#shareContainer:hover #actionContainer {
+  display: flex; /* Display as flex for better alignment */
+}
+
+#fullScreenIcon {
+  float: right;
+  cursor: pointer;
+  color: white; /* White color for the icon */
+}
+
+.fullScreen #actionContainer {
+  width: 85vw !important;
+  background-color: #88C0D0 !important; /* Complementary color */
+}
+
+/* Additional styles for smooth transition effects */
+#shareContainer #actionContainer, #fullScreenIcon {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effect for the full screen icon */
+#fullScreenIcon:hover {
+  color: #88C0D0; /* Complementary color for hover effect */
+}

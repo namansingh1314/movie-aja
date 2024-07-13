@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+body {
+    font-family: 'Syne Mono', monospace; /* Use Syne Mono from Google Fonts */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #000000; /* Light blue background color */
+    color: palevioletred; /* Pale violet red text color */
+}
+
+a {
+    text-decoration: none;
+    color: #88C0D0; /* Complementary color for links */
+    font-size: small;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+a:hover {
+    color: #5A9BD4; /* Light blue color on hover */
+}

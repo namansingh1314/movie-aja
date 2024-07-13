@@ -1,0 +1,18 @@
+#TOS {
+    text-align: justify;
+    padding: 5% 10%;
+    color: #5A9BD4; /* Light blue color for text */
+    background-color: #f0f8ff; /* Light background color for contrast */
+    border-radius: 8px; /* Rounded corners for better aesthetics */
+}
+
+#TOS a {
+    font-size: inherit;
+    color: #88C0D0; /* Complementary color for links */
+    text-decoration: underline; /* Underline for better visibility */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+#TOS a:hover {
+    color: #5A9BD4; /* Light blue color for hover effect */
+}
