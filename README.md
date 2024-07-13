@@ -5,11 +5,10 @@ A web application that leverages pure WebRTC protocol, Google Firestore as a sig
 <a href="https://movie-aja.web.app" target="_blank">Application</a>
 
 # Motivation
-I'm currently in a long-distance relationship myself and have been for the past three years. I understand the longing desire to watch and share experiences with friends, and how most platforms out there are not dedicated to this need, while allowing video conversation simultaneously. I am setting out to solve the problem once and for all, hence the creation of Movie-Aja.
+dont let distance from stop you from watching movies with your loved ones
 
 # Features
 - Sharing screen with audio using Chromium-based browsers.
-<img width="600" src="showcase/chromium_share.png" />
 
 - Enjoy video at 60fps along with high-quality audio.
 - Live Video Chat between parties.
